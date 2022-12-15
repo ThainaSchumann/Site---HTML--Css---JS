@@ -17,11 +17,12 @@
 
 header {
     width: 100%;
-    height: 100vh;
+    height: 100vh; /*view height - The height CSS property specifies the height of an element.*/
     overflow: hidden;
     position: relative;
   }
   
+  /*  <div class="img-wrapper">  */
   .img-wrapper {
     width: 100%;
     height: 100%;
