@@ -6,7 +6,7 @@
 
 O controle das tarefas desse projeto será realizado no Github.
 
-## Icones 
+## Icons
 
 :package: nova funcionalidade
 :up: atualizacao
