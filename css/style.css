@@ -13,7 +13,14 @@
   width: 2rem;
   height: 2rem;
   position: fixed;
+  z-index: 100;
+  right: 2rem;
+  top: 2rem;
 
+}
+
+.line {
+  
 }
 
 :root {
