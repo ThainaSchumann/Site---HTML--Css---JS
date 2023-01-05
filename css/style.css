@@ -376,6 +376,8 @@ header {
     bottom: 0;
     opacity: 0;
     visibility: hidden;
+    opacity: 0;
+    visibility: hidden;
     padding: 2rem;
     text-shadow: 0.3rem 0.2rem 0.3rem rgba(0, 0, 0, 0.6);
     transition: all 0.3s;
@@ -402,6 +404,20 @@ header {
     width: 80%;
     margin-bottom: 2rem;
   }
+
+  .card-info button {
+    width: 8rem;
+    height: 2.5rem;
+    background: #6a3093;
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
+    background: linear-gradient(to left, #a044ff, #6a3093);
+    font-family: var(--font-action);
+    font-size: 1.5rem;
+    color: #eee;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
+  }
   
   .btn {
     background: #6a3093;
@@ -414,18 +430,13 @@ header {
     box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
   }
   
-  .card-info button {
-    width: 8rem;
-    height: 2.5rem;
-  }
-  
   .card:hover .card-info {
     bottom: 2rem;
     opacity: 1;
     visibility: visible;
   }
-
   /*End fo the CARD 1, 2 and 3*/
+
 
 
   /*Section CONTACT-FORM*/
@@ -643,6 +654,7 @@ header {
     border-radius: .3rem;
     box-shadow:  0 0.1rem 0.6rem #00000009;
   }
+  
   Footer
   © 2023 GitHub, Inc.
   Footer navigation
