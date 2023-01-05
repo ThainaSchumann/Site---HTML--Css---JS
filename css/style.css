@@ -500,23 +500,17 @@ header {
     outline: none;
     margin: 1rem 0;
   }
-  
-  .input-group textarea {
-    padding-top: 1rem;
-    max-width: 25rem;
-    max-height: 3rem;
-  }
-  
+
   .field-label {
     position: absolute;
     left: 0;
     top: 2rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: var(--font-secundary);
     text-transform: uppercase;
     transition: all 0.3s;
   }
-  
+
   .field:focus ~ label {
     top: 0;
     font-size: 0.7rem;
@@ -526,6 +520,13 @@ header {
     border-bottom: 1px solid;
   }
   
+  .input-group textarea {
+    padding-top: 1rem;
+    max-width: 25rem;
+    max-height: 3rem;
+  }
+  
+
   .btn-submit {
     font-size: 1.2rem;
     text-transform: uppercase;
