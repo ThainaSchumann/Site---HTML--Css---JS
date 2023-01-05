@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="eng">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,13 +14,15 @@
 </head>
 <body>
     <div class="container">
-
+        
+      <!---MENU HAMBURGUER----->
         <div class="hamburguer">
             <div class="line" id="line1"></div>
             <div class="line" id="line2"></div>
             <div class="line" id="line3"></div>
             <span>close</span>
         </div>
+         <!--END of MENU HAMBURGUER----->
       
 
         <header id="home">
@@ -53,6 +55,8 @@
     </div>
     </aside>
 
+
+    <!----Section KNOWLEDGE------>
     <section class="sessao-conhecimentos" id="conhecimentos">
         <div class="sessao-header">
           <h1>knowledge</h1>
@@ -201,29 +205,29 @@
 
 
       
-       <!---beginning of the session BUDGET----->
+       <!---beginning of the section BUDGET----->
       <section class="sessao-orcamento" id="orcamento">
         <div class="orcamento-wrapper">
           <h1>make a budget</h1>
           <form>
-            <label for="qtde">number of pages</label>
-            <input type="number" min="1" name="qtde" id="qtde">
+            <label for="quantity">number of pages</label>
+            <input type="number" min="1" name="quantity" id="quantity">
             <label for="js">I need a JS script </label>
             <input type="checkbox" name="js" id="js">
             <label>Layout</label>
             <div class="group-layout">
               <div>
-                <input type="radio" name="layout" id="layout-sim">
-                <label for="layout-sim">I need a layout</label>
+                <input type="radio" name="layout" id="layout-yes">
+                <label for="layout-yes">I need a layout</label>
               </div>
               <div>
-                <input type="radio" name="layout" id="layout-nao">
-                <label for="layout-nao">I already have a layout</label>
+                <input type="radio" name="layout" id="layout-no">
+                <label for="layout-no">I already have a layout</label>
               </div>
             </div>
-            <label for="prazo">Period</label>
-            <input type="range" name="prazo" id="prazo" min="1" max="10">
-            <label id="preco">R$ 0,00</label>
+            <label for="period">Time</label>
+            <input type="range" name="period" id="period" min="1" max="10">
+            <label id="preis">$ 0,00</label>
             <button class="btn btn-orcamento" type="submit">Submit</button>
           </form>
         </div>
@@ -235,7 +239,7 @@
     <footer>
         <div class="footer-content">
           <p>
-            Copyright &copy; 2023
+            Copyright &copy; 2023 all rights reserved.
           </p>
           <div class="social-list">
             <ul>

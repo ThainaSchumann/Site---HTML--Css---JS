@@ -180,7 +180,6 @@ header {
     }
     
   }
-
   .sidebar {
     width: 20rem;
     height: 100vh;
@@ -664,6 +663,7 @@ header {
   /*end of footer*/
 
   
+  /*beginning of the ARROW UP*/
   #link-topo{
     position: fixed;
     right: 3rem;
@@ -678,7 +678,7 @@ header {
     align-items: center;
     color: #fff;
     border-radius: .3rem;
-    box-shadow:  0 0.1rem 0.6rem #00000009;
+    box-shadow: 0 0.1rem 0.6rem #00000009;
   }
   
   
